@@ -1,8 +1,16 @@
+# Borrowed from https://github.com/McDic/mkdocs-material-palette-bug-report-2024-01/blob/ff4d4cf8d253bab0cc74af9c0abbf9907c359871/mkdocs.yml
+
 site_name: My Docs
 theme:
   name: material
 
   palette:
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -16,4 +24,8 @@ theme:
       scheme: slate
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: Switch to system preference
+
+# Added info plugin
+plugins:
+  - info

@@ -1,3 +1,6 @@
 # Environment
 .direnv/
 .envrc
+
+# Zip files
+*.zip

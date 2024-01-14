@@ -1,0 +1,25 @@
+# Borrowed from https://github.com/McDic/mkdocs-material-palette-bug-report-2024-01/blob/a0d3b0b6978b0222de4e5ca1bd8644520535cf92/mkdocs.yml
+
+site_name: My Docs
+theme:
+  name: material
+
+  palette:
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+# Added info plugin
+plugins:
+  - info
