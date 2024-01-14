@@ -20,7 +20,7 @@ This repository is used to introduce users to reproduce `mkdocs-material` bug [d
 
 Since `mkdocs-material` encourages people to [use `.zip` files made by `info` plugin](https://squidfunk.github.io/mkdocs-material/contributing/reporting-a-bug/#reproduction) instead of making a repository, I am going to make 2 `.zip` files.
 
-1. Run `echo 2_palettes | mkdocs build -f mkdocs_2_palettes.yml -d`
+1. Run `echo 2_palettes | mkdocs build -f mkdocs_2_palettes.yml`
 2. Run `echo 3_palettes | mkdocs build -f mkdocs_3_palettes.yml`
 
 ## Proposal to resolve this
