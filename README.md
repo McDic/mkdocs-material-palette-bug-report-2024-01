@@ -11,7 +11,7 @@ This repository is used to introduce users to reproduce `mkdocs-material` bug [d
 5. Run `mkdocs server` in your terminal to turn on local server.
 6. Access `127.0.0.1:8000` from your browser.
 7. Press button on the website to make palette to the dark mode.
-8. Checkout to [commit a0d3b0b](https://github.com/McDic/mkdocs-material-palette-bug-report-2024-01/tree/a0d3b0b6978b0222de4e5ca1bd8644520535cf92) and refresh your build (`mkdocs server` will refresh automatically).
+8. Checkout to [commit a0d3b0b](https://github.com/McDic/mkdocs-material-palette-bug-report-2024-01/tree/a0d3b0b6978b0222de4e5ca1bd8644520535cf92) and refresh your build (`mkdocs serve` will refresh automatically).
 9. Enjoy the bug. Javascript stuffs like searching, side navigations wouldn't work.
 
 ![reproduced](./bug_reproduced.png)
